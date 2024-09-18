@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Fonts Comparinator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Google Fonts Comparinator</h1>
+    
+    <div class="control-panel">
+        <input type="text" id="custom-text" placeholder="The quick brown fox jumps over the lazy dog">
+        <div class="text-options-and-color">
+            <button id="normal-case">Normal</button>
+            <button id="uppercase">ALL CAPS</button>
+            <button id="capitalize">Capitalize Words</button>
+            <label for="color-picker">Color:</label>
+            <input type="color" id="color-picker" value="#000080">
+        </div>        
+        <input type="text" id="add-fonts" placeholder="Add fonts (comma-separated)">
+        <button onclick="addFonts()">Add Fonts</button>
+    </div>
+    
+    <div id="not-found-alerts"></div>
+    <div id="font-examples"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

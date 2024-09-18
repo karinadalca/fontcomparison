@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+h1 {
+    text-align: center;
+    color: #000080;
+}
+.control-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#custom-text, #add-fonts {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #000080;
+    border-radius: 3px;
+}
+
+.text-options-and-color {
+    display: flex;
+    align-items: center;
+}
+
+.text-options-and-color button,
+.text-options-and-color label,
+.text-options-and-color input {
+    margin-right: 10px;
+}
+
+.color-picker-container {
+    margin-bottom: 10px;
+}
+#color-picker {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.font-example {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+.font-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000080;
+}
+.font-demo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.delete-font {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.not-found-alert {
+    background-color: #ffeeee;
+    border: 1px solid #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    position: relative;
+}
+.close-alert {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: #cc0000;
+    cursor: pointer;
+}
+button {
+    background-color: #000080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+button:hover {
+    background-color: #0000a0;
+}
+.text-options {
+    margin-bottom: 10px;
+}
